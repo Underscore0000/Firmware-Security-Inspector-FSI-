@@ -128,7 +128,7 @@ The tool is entirely **read-only** and makes no modifications to firmware or har
 ### 🪟 Windows
 
 ```bash
-git clone https://github.com/yourusername/firmware-security-inspector.git
+git clone https://github.com/Underscore0000/firmware-security-inspector.git
 cd firmware-security-inspector
 mkdir build && cd build
 cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
@@ -147,7 +147,7 @@ fsi-cli.exe audit
 sudo apt update
 sudo apt install build-essential cmake nasm pkg-config qt6-base-dev qt6-tools-dev
 
-git clone https://github.com/yourusername/firmware-security-inspector.git
+git clone https://github.com/Underscore0000/firmware-security-inspector.git
 cd firmware-security-inspector
 mkdir build && cd build
 cmake ..
@@ -164,7 +164,7 @@ make -j$(nproc)
 
 ```bash
 git clone https://github.com/tianocore/edk2.git
-git clone https://github.com/yourusername/firmware-security-inspector.git
+git clone https://github.com/Underscore0000/firmware-security-inspector.git
 
 source edk2/edksetup.sh
 build -p FsiUefi.dsc -t GCC5 -b RELEASE -a X64
